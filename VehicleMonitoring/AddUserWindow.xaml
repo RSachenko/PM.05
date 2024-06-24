@@ -1,0 +1,26 @@
+﻿<Window x:Class="VehicleMonitoring.AddUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VehicleMonitoring"
+        mc:Ignorable="d"
+        Title="AddUserWindow" Height="1080" Width="1920">
+    <Grid>
+        <Label Content="Система мониторинга транспорта" HorizontalAlignment="Center" Margin="0,86,0,0" VerticalAlignment="Top" FontSize="72" FontFamily="Impact"/>
+        <Image Margin="1340,24,438,937" Source="/pngwing.com(7).png" Stretch="Fill"/>
+        <Label Content="Для добавления нового пользователя заполните форму" HorizontalAlignment="Center" Margin="0,252,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="36"/>
+        <TextBox x:Name="txtFirstname" HorizontalAlignment="Left" Margin="521,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="866" Height="60" FontFamily="Calibri" FontSize="36"/>
+        <Label Content="Имя:" HorizontalAlignment="Left" Margin="556,334,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <TextBox x:Name="txtSurname" HorizontalAlignment="Left" Margin="521,496,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="866" Height="60" FontFamily="Calibri" FontSize="36"/>
+        <Label Content="Фамилия:" HorizontalAlignment="Left" Margin="556,452,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <TextBox x:Name="txtLogin" HorizontalAlignment="Left" Margin="521,618,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="866" Height="60" FontFamily="Calibri" FontSize="36"/>
+        <Label Content="Логин:" HorizontalAlignment="Left" Margin="556,574,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="521,743,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="866" Height="60" FontFamily="Calibri" FontSize="36"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Margin="556,699,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <TextBox x:Name="txtRole" HorizontalAlignment="Left" Margin="521,874,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="866" Height="60" FontFamily="Calibri" FontSize="36"/>
+        <Label Content="Роль:" HorizontalAlignment="Left" Margin="556,830,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <Button x:Name="NewUserButton" Content="Добавить" HorizontalAlignment="Left" Margin="810,972,0,0" VerticalAlignment="Top" Height="62" Width="288" Background="#FF798093" BorderBrush="White" FontFamily="Calibri" FontSize="36"/>
+
+    </Grid>
+</Window>

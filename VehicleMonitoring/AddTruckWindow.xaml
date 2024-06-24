@@ -1,0 +1,27 @@
+﻿<Window x:Class="VehicleMonitoring.AddTruckWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VehicleMonitoring"
+        mc:Ignorable="d"
+        Title="AddTruckWindow" Height="1080" Width="1920">
+    <Grid>
+        <Label Content="Система мониторинга транспорта" HorizontalAlignment="Center" Margin="0,52,0,0" VerticalAlignment="Top" FontSize="72" FontFamily="Impact"/>
+        <Image Margin="1340,-15,424,972" Source="/pngwing.com(7).png" Stretch="Fill"/>
+        <Label Content="Для добавления нового транспорта заполните форму" HorizontalAlignment="Center" Margin="0,232,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="36"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Center" Margin="0,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="830" Height="60" FontSize="36" FontFamily="Arial"/>
+        <Label Content="Название:" HorizontalAlignment="Left" Margin="576,320,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <TextBox x:Name="txtModel" HorizontalAlignment="Center" Margin="0,483,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="830" Height="60" FontSize="36" FontFamily="Arial"/>
+        <Label Content="Модель:" HorizontalAlignment="Left" Margin="576,444,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <TextBox x:Name="txtCapacity" HorizontalAlignment="Center" Margin="0,619,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="830" Height="60" FontSize="36" FontFamily="Arial"/>
+        <Label Content="Грузоподъемность:" HorizontalAlignment="Left" Margin="576,580,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <TextBox x:Name="txtFuel" HorizontalAlignment="Center" Margin="0,754,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="830" Height="60" FontSize="36" FontFamily="Arial"/>
+        <Label Content="Емкость бака:" HorizontalAlignment="Left" Margin="576,715,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <TextBox x:Name="txtStatus" HorizontalAlignment="Center" Margin="0,888,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="830" Height="60" FontSize="36" FontFamily="Arial"/>
+        <Label Content="Статус:" HorizontalAlignment="Left" Margin="576,849,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24"/>
+        <Button Content="Добавить" HorizontalAlignment="Center" Margin="0,976,0,0" VerticalAlignment="Top" Height="55" Width="292" Background="#FF798093" FontFamily="Arial" FontSize="36" Click="Button_Click"/>
+        <Button Content="Выйти" HorizontalAlignment="Left" Margin="1761,14,0,0" VerticalAlignment="Top" Height="49" Width="149" Background="#FF798093" BorderBrush="White" FontSize="24" FontFamily="Impact" Click="Button_Click_2"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="49" Width="149" Background="#FF798093" BorderBrush="White" FontFamily="Impact" FontSize="24" Click="Button_Click_1"/>
+    </Grid>
+</Window>

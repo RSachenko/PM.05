@@ -1,0 +1,21 @@
+﻿<Window x:Class="VehicleMonitoring.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VehicleMonitoring"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <Image Margin="69,462,1153,83" Source="/pngwing.com(7).png" Stretch="Fill"/>
+        <Image Margin="1216,389,88,160" Source="/pngwing.com(8).png" Stretch="Fill"/>
+        <Label Content="Система мониторинга транспорта" HorizontalAlignment="Center" Margin="0,132,0,0" VerticalAlignment="Top" FontFamily="Impact" FontSize="72"/>
+        <Label Content="Для продолжения необходимо войти в систему" HorizontalAlignment="Center" Margin="0,285,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="36"/>
+        <TextBox x:Name="txtLogin" HorizontalAlignment="Left" Margin="485,532,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1039" Height="79" FontSize="48" FontFamily="Calibri" TextChanged="Login_TextChanged"/>
+        <Label Content="Введите логин:" HorizontalAlignment="Left" Margin="537,490,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Введите пароль:" HorizontalAlignment="Left" Margin="537,661,0,0" VerticalAlignment="Top" FontSize="24" Foreground="White"/>
+        <Button x:Name="LoginButton" Content="Войти" HorizontalAlignment="Center" Margin="0,880,0,0" VerticalAlignment="Top" Height="101" Width="324" Foreground="Black" BorderBrush="White" FontSize="48" FontFamily="Impact" Background="#FF798093" Click="Button_Click"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="485,708,0,0" VerticalAlignment="Top" Width="1039" Height="79" RenderTransformOrigin="0.498,0.583" FontSize="48" FontFamily="Calibri"/>
+
+    </Grid>
+</Window>
